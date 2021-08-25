@@ -20,7 +20,7 @@ class _ContadorPageState extends State<ContadorPage> {
       appBar: AppBar(
         title: Text('Stateful'),
         centerTitle: true,
-      ),
+      ),  // AppBar
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
