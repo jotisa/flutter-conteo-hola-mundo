@@ -6,7 +6,7 @@ class ContadorPage extends StatefulWidget {
   @override
   createState() => _ContadorPageState();
 
-}
+}  //class ContadorPage
 
 class _ContadorPageState extends State<ContadorPage> {
 
