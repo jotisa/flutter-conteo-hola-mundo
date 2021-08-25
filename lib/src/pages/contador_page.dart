@@ -64,5 +64,5 @@ class _ContadorPageState extends State<ContadorPage> {
   }
 
 
-}
+}  // class _ContadorPageState
 
