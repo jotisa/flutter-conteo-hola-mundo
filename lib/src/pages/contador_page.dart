@@ -31,7 +31,7 @@ class _ContadorPageState extends State<ContadorPage> {
         )
       ),
       floatingActionButton: _crearBotones()
-    );
+    );  // Scaffold
   } //Widget override
 
 
