@@ -49,7 +49,7 @@ class _ContadorPageState extends State<ContadorPage> {
       ],
     );
   
-  }
+  } // _crearBotones
 
   void _agregar() {
     setState(() => _conteo++ );
