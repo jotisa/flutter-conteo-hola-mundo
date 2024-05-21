@@ -6,7 +6,7 @@ class ContadorPage extends StatefulWidget {
   @override
   createState() => _ContadorPageState();
 
-}
+}  //class ContadorPage
 
 class _ContadorPageState extends State<ContadorPage> {
 
@@ -20,7 +20,7 @@ class _ContadorPageState extends State<ContadorPage> {
       appBar: AppBar(
         title: Text('Stateful'),
         centerTitle: true,
-      ),
+      ),  // AppBar
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -31,8 +31,8 @@ class _ContadorPageState extends State<ContadorPage> {
         )
       ),
       floatingActionButton: _crearBotones()
-    );
-  }
+    );  // Scaffold
+  } //Widget override
 
 
   Widget _crearBotones() {
@@ -49,7 +49,7 @@ class _ContadorPageState extends State<ContadorPage> {
       ],
     );
   
-  }
+  } // _crearBotones
 
   void _agregar() {
     setState(() => _conteo++ );
@@ -64,5 +64,5 @@ class _ContadorPageState extends State<ContadorPage> {
   }
 
 
-}
+}  // class _ContadorPageState
 
